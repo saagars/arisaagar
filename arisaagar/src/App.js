@@ -1,21 +1,21 @@
-import logo from './logo.svg';
+import saveTheDate from './SaveTheDatePhoto.jpeg';
 import './App.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+        <img src={saveTheDate} className="App-logo" alt="Sakura" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          Don't get too excited. Check back again in a month!
         </p>
         <a
           className="App-link"
-          href="https://reactjs.org"
+          href="https://www.instagram.com/p/CjS20_oOtEm/?fbclid=IwAR2tomPqzLPEF2QcH8FHfWzWt06pm4XwJ07g9riUqL5DXMbdwR7s1HsDr2s"
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Save the Date!
         </a>
       </header>
     </div>
