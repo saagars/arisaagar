@@ -29,7 +29,7 @@ function App() {
       <main className="singlePage"> 
 
         <section className="home halign-center valign-middle coverpage cover" data-color="">
-          <div className="bgBox" style={{'backgroundImage':"url(https://myblissandbone.com/plunge-01/_images/db008a3efa8db667fc74256c013ffd4a.jpeg)"}}>
+          <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/NtcMidB.jpg)"}}>
           </div>               
           <h1 id="coverpage_0" className="logo">
             <img src="https://i.imgur.com/EIAAMOK.png"></img>
