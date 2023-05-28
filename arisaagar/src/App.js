@@ -32,7 +32,7 @@ function App() {
           <div className="bgBox" style={{'backgroundImage':"url(https://myblissandbone.com/plunge-01/_images/db008a3efa8db667fc74256c013ffd4a.jpeg)"}}>
           </div>               
           <h1 id="coverpage_0" className="logo">
-            <img src="https://myblissandbone.com/plunge-01/_images/4b738367f290959cc45e6b46f3b44ab1.png"></img>
+            <img src="https://i.imgur.com/EIAAMOK.png"></img>
           </h1>
         </section>
 
