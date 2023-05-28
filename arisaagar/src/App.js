@@ -51,7 +51,7 @@ function App() {
           <div className="section stagger_l ">             
             <div className="sectionCont large">
               <div id="head_11" className="textCont textOnly">
-                <h2>WEDNESDAY 2023-11-29</h2>
+                <h2>WEDS 2023-11-29</h2>
                 <div className="subsection">
                   <h3>CHECK IN</h3>
                   <h4>
@@ -87,7 +87,7 @@ function App() {
       <div className="section stagger_r ">             
         <div className="sectionCont large">
            <div id="head_12" className="textCont textOnly">
-              <h2>THURSDAY 2023-11-30</h2>
+              <h2>THURS 2023-11-30</h2>
               <div className="subsection">
                 <h3>WEDDING CEREMONY</h3>
                 <h4>
