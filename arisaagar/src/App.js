@@ -70,7 +70,7 @@ function App() {
                   <h4>
                     Location: Crimson Resort and Spa Borcay: Events Pavillion (Outdoors)
                     <br />
-                    5:30pm
+                    5:30pm - 10pm
                     
                     <br />
                     <br />
@@ -84,32 +84,91 @@ function App() {
             </div>
           </div>
 
-      <div className="section stagger_r ">             
-        <div className="sectionCont large">
-           <div id="head_12" className="textCont textOnly">
+        <div className="section stagger_r ">             
+          <div className="sectionCont large">
+            <div id="head_12" className="textCont textOnly">
               <h2>THURS 2023-11-30</h2>
               <div className="subsection">
                 <h3>WEDDING CEREMONY</h3>
                 <h4>
                   Location: Crimson Resort and Spa Boracay: Beachfront
                   <br />
-                  Groom's side lines up for the Baraat at 3:00pm
+                  Groom's side lines up for the Baraat at 3pm
                   <br />
-                  All guests seated for the ceremony at 4:00pm
+                  All guests seated for the ceremony at 4pm
                   <br />
                   <br />
                   Dress: Beach Formal
                   <br />
                   The Bride and groom invite you to participate in their theme colors below or any beach color your prefer
                   <br />
+                  <br /> 
+                  Note, the wedding will be on the beach so please be aware to wear proper footwear
+                </h4>
+              </div>
+
+              <div className="subsection">
+                <h3>Cocktail Hour</h3>
+                <h4>
+                  Location: Crimson Resort and Spa Boracay: Beachfront
+                  <br />
+                  5pm - 6pm
+                  <br />
+                </h4>
+              </div>
+
+              <div className="subsection">
+                <h3>Reception</h3>
+                <h4>
+                  Location: Crimson Resort and Spa Boracay: Coral Ballroom
+                  <br />
+                  6pm - 10pm
+                  <br />
                 </h4>
               </div>
             </div>
           </div>
         </div>
-        </section>
-            </main>
-    </div>
+
+      </section>
+
+      <section class="content_page p41466" style={{"margin-top":"56px"}}>
+                    
+        <div class="section full addPadd">             
+          <div class="sectionCont medium">
+            <div class="imgCont ">
+              <div class="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/rFpTbbL.jpg)", "filter":"saturate(100%) brightness(100%)"}}>
+              </div>                                                    
+            </div>
+          </div>
+        </div>
+        <div class="section stagger_l ">             
+          <div class="sectionCont large">
+            <div id="head_21" class="textCont textOnly">
+              <h2>BORACAY</h2>
+              <div class="subsection">
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="section stagger_r ">             
+          <div class="sectionCont large">
+            <div id="head_22" class="textCont textOnly">
+              <div class="subsection">
+                <h4>
+                  Boracay is a resort island in the Western Visayas region of the Philippines. It was awarded as the 2012 Best Island in the World by the international travel magazine <b>Travel + Leisure</b>
+                  <br />
+                  <br />
+                  In Novemeber, it's gonna be warm. [TODO add more details]. Crimson Resort is nice too.
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>                                                                               
+      </section>
+
+    </main>
+  </div>
   );
 }
 
