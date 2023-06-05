@@ -68,7 +68,7 @@ function App() {
                 <div className="subsection">
                   <h3>SANGEET/MEHNDHI/JAGGO</h3>
                   <h4>
-                    Location: Crimson Resort and Spa Borcay: Events Pavillion (Outdoors)
+                    Location: Crimson Resort and Spa Boracay: Events Pavillion (Outdoors)
                     <br />
                     5:30pm - 10pm
                     
@@ -78,8 +78,8 @@ function App() {
                     <br />
                     <br />
                     Dress: While this is a traditional Indian event, no need to worry if you don't have Indian clothes! Any colorful cutural or formal clothing will suffice!
-                  </h4><
-                /div>
+                  </h4>
+                  </div>
               </div>
             </div>
           </div>
@@ -159,7 +159,7 @@ function App() {
                   Boracay is a resort island in the Western Visayas region of the Philippines. It was awarded as the 2012 Best Island in the World by the international travel magazine <b>Travel + Leisure</b>
                   <br />
                   <br />
-                  In Novemeber, it's gonna be warm. [TODO add more details]. Crimson Resort is nice too.
+                  In November, it's gonna be warm. [TODO add more details]. Crimson Resort is nice too.
                 </h4>
               </div>
             </div>
