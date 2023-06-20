@@ -1,5 +1,6 @@
 import saveTheDate from './SaveTheDatePhoto.jpeg';
 // import './App.css';
+// https://i.imgur.com/EIAAMOK.png - Names image
 import './css/styles.css'
 
 
@@ -32,8 +33,13 @@ function App() {
           <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/NtcMidB.jpg)"}}>
           </div>               
           <h1 id="coverpage_0" className="logo">
-            <img src="https://i.imgur.com/EIAAMOK.png"></img>
+            <img src="https://i.imgur.com/xdGLMnQ.png"></img>
           </h1>
+        </section>
+
+        <section className="home halign-center valign-middle coverpage cover" data-color="">
+          <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/ZySJ0Rq.jpg)", "backgroundPosition": "top"}}>
+          </div>               
         </section>
 
         <section className="content_page p41464" >
@@ -77,9 +83,9 @@ function App() {
                     Join us for a night of singing and dancing performances (Sangeet), henna (Mehndhi), and a party to symbolically "wake up" everyone for the wedding (Jaggo)
                     <br />
                     <br />
-                    Dress: While this is a traditional Indian event, no need to worry if you don't have Indian clothes! Any colorful cutural or formal clothing will suffice!
-                  </h4><
-                /div>
+                    Attire: Any colorful cultural or beach cocktail outfit
+                  </h4>
+                </div>
               </div>
             </div>
           </div>
@@ -98,12 +104,15 @@ function App() {
                   All guests seated for the ceremony at 4pm
                   <br />
                   <br />
-                  Dress: Beach Formal
+                  <b>Attire</b>
                   <br />
-                  The Bride and groom invite you to participate in their theme colors below or any beach color your prefer
+                  GENTLEMAN: Button-down shirt and pants. No sandals and flip-flops.
                   <br />
-                  <br /> 
-                  Note, the wedding will be on the beach so please be aware to wear proper footwear
+                  LADIES: Ankle to floor-length dresses. Strictly NO white or black colors
+                  <br />
+                  <br />
+                  The Bride and groom encourage you to participate in their theme colors below or any neutral color your prefer
+                  <img src="https://i.imgur.com/UCJaS2W.png"  style={{'width':"50%", "display":"block", "marginLeft": "auto"}}></img>
                 </h4>
               </div>
 
@@ -132,7 +141,7 @@ function App() {
 
       </section>
 
-      <section class="content_page p41466" style={{"margin-top":"56px"}}>
+      <section class="content_page p41465" style={{"margin-top":"56px"}}>
                     
         <div class="section full addPadd">             
           <div class="sectionCont medium">
@@ -165,6 +174,47 @@ function App() {
             </div>
           </div>
         </div>                                                                               
+      </section>
+
+      <section className="content_page p41466" >
+          <div className="section full addPadd">                                                                                
+            <div className="sectionCont small">
+              <div className="imgCont" style={{'backgroundColor': '#ccb16f'}}>
+                <div id="head_10" className="textCont">
+                  <h2 style={{'color': '#ffffff', 'fontSize': '3.75em'}}>INFORMATION</h2>
+                  <div className="subsection"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="section stagger_l ">             
+            <div className="sectionCont large">
+              <div id="head_11" className="textCont textOnly">
+                <h2>WEATHER</h2>
+                <div className="subsection">
+                  <h4>
+                    It's gonna be hot yo.
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div className="section stagger_r ">             
+            <div className="sectionCont large">
+              <div id="head_11" className="textCont textOnly">
+                <h2>WHERE TO STAY</h2>
+                <div className="subsection">
+                  <h3>STATION 0</h3>
+                  <h4>
+                    Close to Crimson yo
+                  </h4>
+                </div>
+              </div>
+            </div>
+          </div>
+
       </section>
 
     </main>
