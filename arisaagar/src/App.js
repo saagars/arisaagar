@@ -38,7 +38,7 @@ function App() {
         </section>
 
         <section className="home halign-center valign-middle coverpage cover" data-color="">
-          <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/ZySJ0Rq.jpg)", "backgroundPosition": "top"}}>
+          <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/ZySJ0Rq.jpg)", "backgroundPosition": "top", "top": "-285px"}}>
           </div>               
         </section>
 
