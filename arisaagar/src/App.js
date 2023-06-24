@@ -38,7 +38,7 @@ function App() {
         </section>
 
         <section className="home halign-center valign-middle coverpage cover" data-color="">
-          <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/ZySJ0Rq.jpg)", "backgroundPosition": "top", "top": "-285px"}}>
+          <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/ZySJ0Rq.jpg)", "backgroundPosition": "top", "top": "-18%"}}>
           </div>               
         </section>
 
@@ -74,7 +74,7 @@ function App() {
                 <div className="subsection">
                   <h3>SANGEET/MEHNDHI/JAGGO</h3>
                   <h4>
-                    Location: Crimson Resort and Spa Boracay: Events Pavillion (Outdoors)
+                    Location: Crimson Resort and Spa Boracay - Events Pavillion (Outdoors)
                     <br />
                     5:30pm - 10pm
                     
@@ -97,7 +97,7 @@ function App() {
               <div className="subsection">
                 <h3>WEDDING CEREMONY</h3>
                 <h4>
-                  Location: Crimson Resort and Spa Boracay: Beachfront
+                  Location: Crimson Resort and Spa Boracay - Beachfront
                   <br />
                   Groom's side lines up for the Baraat at 3pm
                   <br />
@@ -112,14 +112,14 @@ function App() {
                   <br />
                   <br />
                   The Bride and groom encourage you to participate in their theme colors below or any neutral color your prefer
-                  <img src="https://i.imgur.com/UCJaS2W.png"  style={{'width':"50%", "display":"block", "marginLeft": "auto"}}></img>
+                  <img src="https://i.imgur.com/UCJaS2W.png"  class="palette"></img>
                 </h4>
               </div>
 
               <div className="subsection">
                 <h3>Cocktail Hour</h3>
                 <h4>
-                  Location: Crimson Resort and Spa Boracay: Beachfront
+                  Location: Crimson Resort and Spa Boracay - Beachfront
                   <br />
                   5pm - 6pm
                   <br />
@@ -129,7 +129,7 @@ function App() {
               <div className="subsection">
                 <h3>Reception</h3>
                 <h4>
-                  Location: Crimson Resort and Spa Boracay: Coral Ballroom
+                  Location: Crimson Resort and Spa Boracay - Coral Ballroom
                   <br />
                   6pm - 10pm
                   <br />

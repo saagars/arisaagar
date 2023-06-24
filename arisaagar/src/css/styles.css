@@ -1659,8 +1659,14 @@ main section {
 	    margin: 0 auto; }
 	main section .textCont > .subsection {
 			margin-bottom: 30px; }
-		main section .textCont > .subsection:last-child, main section .textCont > .subsection *:last-child {
-			margin-bottom: 0 !important; }
+
+    main section .textCont > .subsection .palette{
+            width: 50%;
+            display: block;
+            margin-left: auto;
+        }
+	main section .textCont > .subsection:last-child, main section .textCont > .subsection *:last-child {
+		margin-bottom: 0 !important; }
   main section .sectionCont > .textCont {
 	  max-width: 700px;
 	  padding-left: 40px;
@@ -2124,6 +2130,10 @@ main section {
       main section .section.stagger_l .sectionCont > .textCont *, main section .section.stagger_r .sectionCont > .textCont * {
 	      margin-left: 0;
 	      margin-right: 0; }
+
+      main section .section.stagger_l .sectionCont > .textCont *, main section .section.stagger_r .sectionCont > .textCont .palette {
+          margin-left: auto; }
+
     main section .section.stagger_l .sectionCont .imgCont.textBelow, main section .section.stagger_r .sectionCont .imgCont.textBelow {
 			margin-bottom: 0; }
     main section .section.stagger_l .sectionCont .textCont.textOnly {
@@ -2909,6 +2919,15 @@ body.password {
 			padding-right: 20px; }
 		main section .textCont > .subsection {
 			margin-bottom: 30px; }
+
+        main section .textCont > .subsection .palette{
+            width: 50%;
+            display: block;
+            margin-left: 25%;
+        }
+
+        main section .section.stagger_l .sectionCont > .textCont *, main section .section.stagger_r .sectionCont > .textCont .palette {
+          margin-left: 25%; }
 /*
 			main section .textCont > .subsection {
 				margin-bottom: 16px; }
