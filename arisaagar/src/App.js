@@ -172,11 +172,10 @@ function App() {
               <div className="subsection">
                 <h4>
                   Boracay is a resort island in the Western Visayas region of the Philippines. It was awarded as the 2012 Best Island in the World by the international travel magazine <b>Travel + Leisure</b>. 
-                  Among the activities to do in Boracay include island hopping, water sports, snorkeling and diving, nightlife, hiking, and cliff diving. 
+                  There are so many things to do in Borcay, including but not limited to: island hopping, water sports, snorkeling and diving, nightlife, hiking, and cliff diving. 
                   <br />
                   <br />
                   <a href="https://guidetothephilippines.ph/articles/what-to-experience/boracay-tourist-spots" target="_blank" rel="nofollow">Click here to see more</a>.
-                  <br />
                   <br />
                   In November, it's gonna be warm. [TODO add more details]. Crimson Resort is nice too.
                 </h4>
