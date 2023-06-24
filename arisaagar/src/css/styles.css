@@ -1663,8 +1663,12 @@ main section {
     main section .textCont > .subsection .palette{
             width: 50%;
             display: block;
-            margin-left: auto;
         }
+
+    main section .textCont > .subsection .indian-attire{
+        width: 50%;
+        display: block;
+    }
 	main section .textCont > .subsection:last-child, main section .textCont > .subsection *:last-child {
 		margin-bottom: 0 !important; }
   main section .sectionCont > .textCont {
@@ -2133,6 +2137,9 @@ main section {
 
       main section .section.stagger_l .sectionCont > .textCont *, main section .section.stagger_r .sectionCont > .textCont .palette {
           margin-left: auto; }
+
+        main section .section.stagger_l .sectionCont > .textCont *, main section .section.stagger_r .sectionCont > .textCont .indian-attire {
+              margin-left: 0; }
 
     main section .section.stagger_l .sectionCont .imgCont.textBelow, main section .section.stagger_r .sectionCont .imgCont.textBelow {
 			margin-bottom: 0; }
@@ -2923,10 +2930,17 @@ body.password {
         main section .textCont > .subsection .palette{
             width: 50%;
             display: block;
-            margin-left: 25%;
         }
 
-        main section .section.stagger_l .sectionCont > .textCont *, main section .section.stagger_r .sectionCont > .textCont .palette {
+        main section .textCont > .subsection .indian-attire{
+            width: 50%;
+            display: block;
+        }
+
+        main section .section.stagger_l .sectionCont > .textCont .palette, main section .section.stagger_r .sectionCont > .textCont .palette {
+          margin-left: 25%; } 
+
+        main section .section.stagger_l .sectionCont > .textCont .indian-attire, main section .section.stagger_r .sectionCont > .textCont .indian-attire  {
           margin-left: 25%; }
 /*
 			main section .textCont > .subsection {

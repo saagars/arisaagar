@@ -1,6 +1,19 @@
 import saveTheDate from './SaveTheDatePhoto.jpeg';
 // import './App.css';
 // https://i.imgur.com/EIAAMOK.png - Names image
+
+//      <div id="navContent" className="split inverse singleNav">
+      //   <div className="bgBox"></div>   
+      //   <nav>
+      //     <div className="navScroll">     
+      //       <a href="home" className="navItem" rel="nofollow">Home Page</a>
+      //       <a href="p41464" className="navItem" rel="nofollow">Itinerary</a>
+      //       <a href="p41466" className="navItem" rel="nofollow">Boracay</a>
+      //       <a href="p41467" className="navItem" rel="nofollow">Information</a>
+      //       <a href="p41469" className="navItem" rel="nofollow">RSVP Button</a>                                                 
+      //     </div>    
+      //   </nav>
+      // </div>
 import './css/styles.css'
 
 
@@ -8,18 +21,7 @@ function App() {
   return (
     <div className="App">
 
-      <div id="navContent" className="split inverse singleNav">
-        <div className="bgBox"></div>   
-        <nav>
-          <div className="navScroll">     
-            <a href="home" className="navItem" rel="nofollow">Home Page</a>
-            <a href="p41464" className="navItem" rel="nofollow">Itinerary</a>
-            <a href="p41466" className="navItem" rel="nofollow">Boracay</a>
-            <a href="p41467" className="navItem" rel="nofollow">Information</a>
-            <a href="p41469" className="navItem" rel="nofollow">RSVP Button</a>                                                 
-          </div>    
-        </nav>
-      </div>
+
     
       <header className="home singlePage cover">      
         <h1 className="monogram text">
@@ -83,7 +85,10 @@ function App() {
                     Join us for a night of singing and dancing performances (Sangeet), henna (Mehndhi), and a party to symbolically "wake up" everyone for the wedding (Jaggo)
                     <br />
                     <br />
-                    Attire: Any colorful cultural or beach cocktail outfit
+                    <b>Attire</b>
+                    <br />
+                    Any colorful cultural or beach cocktail outfit
+                    <div className="indian-attire"><img src="https://i.imgur.com/mLuWFAm.png"></img></div>
                   </h4>
                 </div>
               </div>
@@ -110,9 +115,10 @@ function App() {
                   <br />
                   LADIES: Ankle to floor-length dresses. Strictly NO white or black colors
                   <br />
+                  <div className="palette"><img src="https://i.imgur.com/HaiQ1w7.png"></img></div>
                   <br />
                   The Bride and groom encourage you to participate in their theme colors below or any neutral color your prefer
-                  <img src="https://i.imgur.com/UCJaS2W.png"  class="palette"></img>
+                  <div className="palette"><img src="https://i.imgur.com/UCJaS2W.png"></img></div>
                 </h4>
               </div>
 
@@ -141,31 +147,35 @@ function App() {
 
       </section>
 
-      <section class="content_page p41465" style={{"margin-top":"56px"}}>
+      <section className="content_page p41465" style={{"marginTop":"56px"}}>
                     
-        <div class="section full addPadd">             
-          <div class="sectionCont medium">
-            <div class="imgCont ">
-              <div class="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/rFpTbbL.jpg)", "filter":"saturate(100%) brightness(100%)"}}>
+        <div className="section full addPadd">             
+          <div className="sectionCont medium">
+            <div className="imgCont ">
+              <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/rFpTbbL.jpg)", "filter":"saturate(100%) brightness(100%)"}}>
               </div>                                                    
             </div>
           </div>
         </div>
-        <div class="section stagger_l ">             
-          <div class="sectionCont large">
-            <div id="head_21" class="textCont textOnly">
+        <div className="section stagger_l ">             
+          <div className="sectionCont large">
+            <div id="head_21" className="textCont textOnly">
               <h2>BORACAY</h2>
-              <div class="subsection">
+              <div className="subsection">
               </div>
             </div>
           </div>
         </div>
-        <div class="section stagger_r ">             
-          <div class="sectionCont large">
-            <div id="head_22" class="textCont textOnly">
-              <div class="subsection">
+        <div className="section stagger_r ">             
+          <div className="sectionCont large">
+            <div id="head_22" className="textCont textOnly">
+              <div className="subsection">
                 <h4>
-                  Boracay is a resort island in the Western Visayas region of the Philippines. It was awarded as the 2012 Best Island in the World by the international travel magazine <b>Travel + Leisure</b>
+                  Boracay is a resort island in the Western Visayas region of the Philippines. It was awarded as the 2012 Best Island in the World by the international travel magazine <b>Travel + Leisure</b>. 
+                  Among the activities to do in Boracay include island hopping, water sports, snorkeling and diving, nightlife, hiking, and cliff diving. 
+                  <br />
+                  <br />
+                  <a href="https://guidetothephilippines.ph/articles/what-to-experience/boracay-tourist-spots" target="_blank" rel="nofollow">Click here to see more</a>.
                   <br />
                   <br />
                   In November, it's gonna be warm. [TODO add more details]. Crimson Resort is nice too.
