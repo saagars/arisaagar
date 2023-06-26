@@ -59,7 +59,7 @@ function App() {
           <div className="section stagger_l ">             
             <div className="sectionCont large">
               <div id="head_11" className="textCont textOnly">
-                <h2>WEDS 2023-11-29</h2>
+                <h2>WED 2023-11-29</h2>
                 <div className="subsection">
                   <h3>CHECK IN</h3>
                   <h4>
@@ -117,7 +117,7 @@ function App() {
                   <br />
                   <div className="palette"><img src="https://i.imgur.com/HaiQ1w7.png"></img></div>
                   <br />
-                  The Bride and groom encourage you to participate in their theme colors below or any neutral color your prefer
+                  The bride and groom encourage you to participate in their theme colors below or any neutral color your prefer
                   <div className="palette"><img src="https://i.imgur.com/UCJaS2W.png"></img></div>
                 </h4>
               </div>
@@ -157,16 +157,17 @@ function App() {
             </div>
           </div>
         </div>
-        <div className="section stagger_l ">             
+        <div className="section stagger">             
           <div className="sectionCont large">
             <div id="head_21" className="textCont textOnly">
+              <br/>
               <h2>BORACAY</h2>
               <div className="subsection">
               </div>
             </div>
           </div>
         </div>
-        <div className="section stagger_r ">             
+        <div className="section stagger" style={{"paddingTop":"0px"}}>             
           <div className="sectionCont large">
             <div id="head_22" className="textCont textOnly">
               <div className="subsection">
@@ -182,6 +183,8 @@ function App() {
                   stations have remained. Today, Station 1 in the north of White Beach is home to luxorious and peaceful beach resorts. Station 2 is the epicenter of the
                   island, home to the biggest shopping areas and night life. Station 3 is home to the backpacker hostels and nature.
                   <br />
+                  <br/>
+                  <div className="map"><img src="https://i.imgur.com/aOiiHVY.jpeg"></img></div>
                   <br />
                   <a href="https://www.crimsonhotel.com/boracay/about-us" target="_blank" rel="nofollow" style={{'display':"inline"}}><u>The Crimson Resort and Spa in Boracay</u></a> is not on White Beach, and is located in the coveted Station 0 of Boracay in the very north part of the island.
                   This is the most tranquil and isolated part of the island, and home to many 5-star resorts. The Crimson hosts a secluded and pristine beach, a pool bar, and four superb restaurants.
@@ -211,7 +214,7 @@ function App() {
                 <div className="subsection">
                   <h4>
                     The dry season on Boracay starts in November. The average daytime temperatures are around 30°C (86°F) and nighttime temperatures are around 23°C (74°F). 
-                    It is of course highly receommended to wear reef safe sunscreen and to stay hydrated while out under the sun.
+                    It is of course highly recommended to wear reef safe sunscreen and to stay hydrated while out under the sun.
                   </h4>
                 </div>
               </div>
@@ -273,7 +276,7 @@ function App() {
                 <div className="subsection">
                   <h4>During the time of the wedding, it is recommended to stay in station 0 or 1, so as to have quick and easy access to the venue. 
                   Should you arrive before the events, or decide to stay after, it is recommended to stay in station 1 or 2 so as to be more central
-                  on the island and have acess to the island's amentieis and activities.</h4>
+                  on the island and have acess to the island's amenities and activities.</h4>
                   < br/>
                   <h3>STATION 0</h3>
                   <h4>
@@ -292,6 +295,7 @@ function App() {
                     <i>Complimentary Round-trip land and boat transfers from Godofredo Ramos Domestic Airport or Caticlan Jetty port for rooms booked with an average room rate above P11,000++ per night. Prior notice of confirmed flight or arrival details are required to arrange transfers.</i>
                     <br />
                     <br />
+                    <i>For rooms booked with an average room rate of P11,000++ and below, round-trip land and boat transfers may be booked for a special rate of P1,750 net per person. Prior notice of confirmed flight or arrival details are required to arrange transfers.</i>
                     <i>Complimentary mini-bar items upon arrival</i>
                     <br />
                     <br />
@@ -315,11 +319,56 @@ function App() {
                     <br />
                     <b>E</b>: boracay.reservation@crimsonhotel.com 
                   </h4>
+                  <br/>
+                  <h3>STATION 1-3</h3>
+                  <h4>
+                    Here are some of our favorite hotels 
+                  </h4>
                 </div>
               </div>
             </div>
           </div>
+      </section>
 
+      <section className="content_page p41467" >
+        <div className="section full addPadd">                                                                                
+          <div className="sectionCont small">
+            <div className="imgCont" style={{'backgroundColor': '#ccb16f'}}>
+              <div id="head_10" className="textCont">
+                <h2 style={{'color': '#ffffff', 'fontSize': '3.75em'}}>RSVP</h2>
+                <div className="subsection"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div className="section stagger_l">             
+          <div className="sectionCont large">
+            <div id="head_11" className="textCont textOnly">
+              <div className="subsection">
+                <h3>RSVP Form</h3>
+                <h4>Please kindly fill out <a href="https://docs.google.com/forms/d/e/1FAIpQLSeAPmSkAlFXZesgOzxiskiI5xQujZk8xS5n6BOjPuvIX4dOWw/viewform?usp=sf_link" target="_blank" rel="nofollow" style={{'display':"inline"}}><u>this form</u></a> to RSVP</h4>
+                <br/>
+                <br />
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section className="home halign-center valign-middle coverpage cover" data-color="">
+        <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/L9zycrH.jpeg)", "backgroundPosition": "top", "top": "-10%", "backgroundPositionX": "15%"}}>
+        </div>               
+      </section>
+
+      <section className="home halign-center valign-middle coverpage cover" data-color="">
+        <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/v64KrwT.jpeg)", "backgroundPosition": "top", "top": "-8%", "backgroundPositionX": "15%"}}>
+        </div>               
+      </section>
+
+      <section className="home halign-center valign-middle coverpage cover" data-color="">
+        <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/lXpQcbG.jpeg)", "backgroundPosition": "top", "top": "-10%"}}>
+        </div>               
       </section>
 
     </main>

@@ -1665,6 +1665,11 @@ main section {
             display: block;
         }
 
+    main section .textCont > .subsection .map{
+            width: 100%;
+            display: block;
+        }
+
     main section .textCont > .subsection .indian-attire{
         width: 50%;
         display: block;
@@ -2138,8 +2143,12 @@ main section {
       main section .section.stagger_l .sectionCont > .textCont *, main section .section.stagger_r .sectionCont > .textCont .palette {
           margin-left: auto; }
 
-        main section .section.stagger_l .sectionCont > .textCont *, main section .section.stagger_r .sectionCont > .textCont .indian-attire {
-              margin-left: 0; }
+        main section main section .section.stagger .sectionCont > .textCont .map {
+          margin-left: auto; }
+
+
+    main section .section.stagger_l .sectionCont > .textCont *, main section .section.stagger_r .sectionCont > .textCont .indian-attire {
+          margin-left: 0; }
 
     main section .section.stagger_l .sectionCont .imgCont.textBelow, main section .section.stagger_r .sectionCont .imgCont.textBelow {
 			margin-bottom: 0; }
@@ -2888,7 +2897,7 @@ body.password {
 		min-width: 0; }
 		
 	main section .section.full .sectionCont.small .imgCont:not(.videoCont):not(.doNotCrop), main section .section.full .sectionCont.small .imgCont:not(.videoCont):not(.doNotCrop) .textCont {
-		min-height: 68.53vh; }
+		min-height: 40vh; }
 	main section .section.full .sectionCont.medium .imgCont:not(.videoCont):not(.doNotCrop), main section .section.full .sectionCont.medium .imgCont:not(.videoCont):not(.doNotCrop) .textCont {
 		min-height: 84.78vh; }
 	main section .section.full .sectionCont.large .imgCont:not(.videoCont):not(.doNotCrop), main section .section.full .sectionCont.large .imgCont:not(.videoCont):not(.doNotCrop) .textCont {
@@ -2932,6 +2941,11 @@ body.password {
             display: block;
         }
 
+        main section .textCont > .subsection .map{
+            width: 100%;
+            display: block;
+        }
+
         main section .textCont > .subsection .indian-attire{
             width: 50%;
             display: block;
@@ -2941,6 +2955,9 @@ body.password {
           margin-left: 25%; } 
 
         main section .section.stagger_l .sectionCont > .textCont .indian-attire, main section .section.stagger_r .sectionCont > .textCont .indian-attire  {
+          margin-left: 25%; }
+
+        main section main section .section.stagger .sectionCont > .textCont .map  {
           margin-left: 25%; }
 /*
 			main section .textCont > .subsection {
