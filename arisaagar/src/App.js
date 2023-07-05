@@ -61,19 +61,6 @@ function App() {
               <div id="head_11" className="textCont textOnly">
                 <h2>WED 2023-11-29</h2>
                 <div className="subsection">
-                  <h3>CHECK IN</h3>
-                  <h4>
-                    Anytime
-                    <br />
-                    Please send your flight information to our lovely event support team so we know when to expect you.
-                  </h4>
-                  <div className="buttonCont">
-                    <a href="https://www.google.com" className="button">
-                      <span>Send Info</span>
-                    </a>
-                  </div>
-                </div>
-                <div className="subsection">
                   <h3>SANGEET/MEHNDHI/JAGGO</h3>
                   <h4>
                     Location: Crimson Resort and Spa Boracay - Events Pavillion (Outdoors)
