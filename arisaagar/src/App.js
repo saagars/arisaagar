@@ -15,8 +15,9 @@ import Carousel from 'react-bootstrap/Carousel';
       //     </div>    
       //   </nav>
       // </div>
-import './css/styles.css'
 import './css/bootstrap.min.css';
+import './css/styles.css'
+
 
 
 function PictureCarousel() {
@@ -26,7 +27,7 @@ function PictureCarousel() {
           </div>               
         </section>
   */
-  const delay = 50000
+  const delay = 5000
   return (
     <Carousel data-bs-theme="dark" pause={false}>
       <Carousel.Item interval={delay}>
@@ -95,7 +96,7 @@ function App() {
 
 
         <section className="content_page p41464"  >
-          <div className="section full addPadd" style={{'paddingTop': '0px'}}>                                                                                
+          <div className="section full addPadd" style={{'paddingTop': '0px', 'paddingBottom': '20px'}}>                                                                                
             <div className="sectionCont small">
               <div className="imgCont" style={{'backgroundColor': '#ccb16f'}}>
                 <div id="head_10" className="textCont">
@@ -106,7 +107,7 @@ function App() {
             </div>
           </div>
 
-          <div className="section stagger_l ">             
+          <div className="section stagger">             
             <div className="sectionCont large">
               <div id="head_11" className="textCont textOnly">
                 <h2>WED 2023-11-29</h2>
@@ -132,7 +133,7 @@ function App() {
             </div>
           </div>
 
-        <div className="section stagger_r ">             
+        <div className="section stagger">             
           <div className="sectionCont large">
             <div id="head_12" className="textCont textOnly">
               <h2>THURS 2023-11-30</h2>
@@ -233,7 +234,7 @@ function App() {
       </section>
 
       <section className="content_page p41466" >
-          <div className="section full addPadd">                                                                                
+          <div className="section full addPadd" style={{'paddingBottom': '20px'}}>                                                                                
             <div className="sectionCont small">
               <div className="imgCont" style={{'backgroundColor': '#ccb16f'}}>
                 <div id="head_10" className="textCont">
@@ -244,7 +245,7 @@ function App() {
             </div>
           </div>
 
-          <div className="section stagger_r ">             
+          <div className="section stagger ">             
             <div className="sectionCont large">
               <div id="head_11" className="textCont textOnly">
                 <h2>WEATHER</h2>
@@ -258,7 +259,7 @@ function App() {
             </div>
           </div>
 
-          <div className="section stagger_l ">             
+          <div className="section stagger ">             
             <div className="sectionCont large">
               <div id="head_11" className="textCont textOnly">
                 <h2>GETTING THERE</h2>
@@ -306,7 +307,7 @@ function App() {
             </div>
           </div>
 
-          <div className="section stagger_r ">             
+          <div className="section stagger ">             
             <div className="sectionCont large">
               <div id="head_11" className="textCont textOnly">
                 <h2>WHERE TO STAY</h2>
@@ -368,7 +369,7 @@ function App() {
       </section>
 
       <section className="content_page p41467" >
-        <div className="section full addPadd">                                                                                
+        <div className="section full addPadd" style={{'paddingBottom': '20px'}}>                                                                                
           <div className="sectionCont small">
             <div className="imgCont" style={{'backgroundColor': '#ccb16f'}}>
               <div id="head_10" className="textCont">
@@ -379,7 +380,7 @@ function App() {
           </div>
         </div>
 
-        <div className="section stagger_l">             
+        <div className="section stagger">             
           <div className="sectionCont large">
             <div id="head_11" className="textCont textOnly">
               <div className="subsection">

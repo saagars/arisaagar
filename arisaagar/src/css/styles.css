@@ -1143,7 +1143,7 @@ h1.monogram {
 
 /* set Title color and font here */
 /* h2 font size is adjusted for browser width with media queries further below */
-h2 {
+.App h2 {
 	  font: 2.5833333333333em/1.3em "AvenirNextLTW01-Regular";
   letter-spacing: 0px;
   font-weight: normal;
@@ -1152,7 +1152,7 @@ h2 {
   display: inline-block; }
 
 /* set Primary size, color and font here */
-h3 {
+.App h3 {
   font: 16px/1.3em "AvenirNextLTW01-Regular";
   letter-spacing: 0px;
   margin-bottom: 3px;
@@ -1160,25 +1160,25 @@ h3 {
   color: #000000; }
 
 /* set Secondary color and font here */
-h4 {
+.App h4 {
   font: 13px/1.6em "AvenirNextLTW01-Regular";
   letter-spacing: 0px;
   font-weight: normal;
   color: #6c6c6c; }
 
 /* set Secondary color and font here? this h5 is only used on the rsvp section for entree selections */
-h5 {
+.App h5 {
   font: 14px/44px "AvenirNextLTW01-Regular";
   letter-spacing: 0px;
   font-weight: normal;
   color: #6c6c6c; }
 
 /* for: 'site by bliss & bone' in footer */
-footer h6 {
+.App footer h6 {
   font: 9px/1em "AvenirNextLTW01-Regular";
   text-transform: uppercase;
   -webkit-text-size-adjust: none; }
-footer h6 a {
+.App footer h6 a {
 display: inline-block;}
 .buttonCont {
 	display: inline-block;
