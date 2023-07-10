@@ -2140,15 +2140,15 @@ main section {
 	      margin-left: 0;
 	      margin-right: 0; }
 
-      main section .section.stagger_l .sectionCont > .textCont *, main section .section.stagger_r .sectionCont > .textCont .palette {
-          margin-left: auto; }
+      main section .section.stagger_l .sectionCont > .textCont *, main section .section.stagger .sectionCont > .textCont .palette {
+          margin-left: 25%; }
 
         main section main section .section.stagger .sectionCont > .textCont .map {
-          margin-left: auto; }
+          margin-left: 25%; }
 
 
-    main section .section.stagger_l .sectionCont > .textCont *, main section .section.stagger_r .sectionCont > .textCont .indian-attire {
-          margin-left: 0; }
+    main section .section.stagger_l .sectionCont > .textCont *, main section .section.stagger .sectionCont > .textCont .indian-attire {
+          margin-left: 25%; }
 
     main section .section.stagger_l .sectionCont .imgCont.textBelow, main section .section.stagger_r .sectionCont .imgCont.textBelow {
 			margin-bottom: 0; }
