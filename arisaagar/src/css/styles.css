@@ -1931,7 +1931,7 @@ main section {
 				background-repeat: no-repeat;
 			}
 		  main section .section.full .sectionCont.small .imgCont:not(.videoCont), main section .section.full .sectionCont.small .imgCont:not(.videoCont) .textCont {
-		    min-height: max(37.5vw, 325px); }
+		    min-height: max(30vw, 325px); }
 		  main section .section.full .sectionCont.medium .imgCont:not(.videoCont), main section .section.full .sectionCont.medium .imgCont:not(.videoCont) .textCont {
 		    min-height: max(66.7vw, 360px); }
 		  main section .section.full .sectionCont.large .imgCont:not(.videoCont), main section .section.full .sectionCont.large .imgCont:not(.videoCont) .textCont {
@@ -2913,7 +2913,7 @@ body.password {
 		min-width: 0; }
 		
 	main section .section.full .sectionCont.small .imgCont:not(.videoCont):not(.doNotCrop), main section .section.full .sectionCont.small .imgCont:not(.videoCont):not(.doNotCrop) .textCont {
-		min-height: 40vh; }
+		min-height: 25vh; }
 	main section .section.full .sectionCont.medium .imgCont:not(.videoCont):not(.doNotCrop), main section .section.full .sectionCont.medium .imgCont:not(.videoCont):not(.doNotCrop) .textCont {
 		min-height: 84.78vh; }
 	main section .section.full .sectionCont.large .imgCont:not(.videoCont):not(.doNotCrop), main section .section.full .sectionCont.large .imgCont:not(.videoCont):not(.doNotCrop) .textCont {

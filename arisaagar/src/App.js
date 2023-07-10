@@ -24,7 +24,7 @@ import './css/styles.css'
 
 
 function PictureCarousel() {
-  const delay = 5000
+  const delay = 3500
   return (
     <Carousel data-bs-theme="dark" pause={false}>
       <Carousel.Item interval={delay}>
@@ -419,6 +419,43 @@ function App() {
                     <b>E</b>: boracay.reservation@crimsonhotel.com 
                   </h4>
                   <br/>
+                  <h3>Station 1</h3>
+                  <h4>
+                    Please follow these links to see some of our recommended hotels in Station 1.
+                    <br />
+                    <a href="https://www.thelindhotels.com" target="_blank" rel="nofollow" style={{'display':"inline"}}><u>The Lind Boracay</u></a>
+                    <br / >
+                    <a href="https://www.discoveryshoresboracay.com" target="_blank" rel="nofollow" style={{'display':"inline"}}><u>Discovery Shores</u></a>
+                    <br / >
+                    <a href="https://www.henann.com/henannprimebeach" target="_blank" rel="nofollow" style={{'display':"inline"}}><u>Henann Prime Beach Resort</u></a>
+                    <br / >
+                    <a href="https://www.twoseasonsresorts.com/boracay/contact-us" target="_blank" rel="nofollow" style={{'display':"inline"}}><u>Two Seasons Boracay</u></a>
+                    <br / >
+                    <a href="https://www.seawindboracay.ph" target="_blank" rel="nofollow" style={{'display':"inline"}}><u>Seawind Resort </u></a>
+                    <br / >
+                  </h4>
+                  <br/>
+                  <h3>Station 2</h3>
+                  <h4>
+                    Please follow these links to see some of our recommended hotels in Station 2.
+                    <br />
+                    <a href="https://www.thedistrictboracay.com/contact-us" target="_blank" rel="nofollow" style={{'display':"inline"}}><u>The District Boracay</u></a>
+                    <br / >
+                    <a href="https://www.henann.com/henanncrystalsands" target="_blank" rel="nofollow" style={{'display':"inline"}}><u>Hennan Crystal Sands</u></a>
+                    <br / >
+                    <a href="https://www.tidesboracay.com" target="_blank" rel="nofollow" style={{'display':"inline"}}><u>The Tides</u></a>
+                    <br / >
+                  </h4>
+                  <br/>
+                  <h3>Station 3</h3>
+                  <h4>
+                    Please follow these links to see some of our recommended hotels in Station 3.
+                    <br />
+                    <a href="https://www.astoriacurrent.com" target="_blank" rel="nofollow" style={{'display':"inline"}}><u>Astoria Current</u></a>
+                    <br / >
+                    <a href="https://www.crownregency.com/hotel/crown-regency-beach-resort" target="_blank" rel="nofollow" style={{'display':"inline"}}><u>Crown Regency Beach Resort</u></a>
+                    <br / >
+                  </h4>
                 </div>
               </div>
             </div>
