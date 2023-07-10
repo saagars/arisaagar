@@ -1,5 +1,8 @@
 import saveTheDate from './SaveTheDatePhoto.jpeg';
 import Carousel from 'react-bootstrap/Carousel';
+import Modal from 'react-bootstrap/Modal'
+import Button from 'react-bootstrap/Button'
+import React, { useEffect, useState } from "react";
 // import './App.css';
 // https://i.imgur.com/EIAAMOK.png - Names image
 
@@ -21,12 +24,6 @@ import './css/styles.css'
 
 
 function PictureCarousel() {
-  /*
-        <section className="home halign-center valign-middle coverpage cover" data-color="">
-          <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/ZySJ0Rq.jpg)", "backgroundPosition": "top", "top": "-18%"}}>
-          </div>               
-        </section>
-  */
   const delay = 5000
   return (
     <Carousel data-bs-theme="dark" pause={false}>
@@ -66,7 +63,39 @@ function PictureCarousel() {
   );
 }
 
+function InviteCarousel() {
+  return (
+    <Carousel data-bs-theme="dark" pause={false} interval={null}>
+      <Carousel.Item>
+        <img src="https://i.imgur.com/tFyrkYX.png" alt="Invite 1" width="684" height="958"></img>
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://i.imgur.com/29Cnfmv.png" alt="Invite 2" width="684" height="958"></img>
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://i.imgur.com/mnjjbXC.jpeg" alt="Invite 1" width="684" height="958"></img>
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item>
+        <img src="https://i.imgur.com/2QLWedZ.png" alt="Invite 1" width="684" height="958"></img>
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
+}
+
 function App() {
+    const [show, setShow] = useState(false);
+
+    const handleClose = () => setShow(false);
+    const handleShow = () => setShow(true);
+
   return (
     <div className="App">
 
@@ -92,8 +121,6 @@ function App() {
 
         
         <PictureCarousel></PictureCarousel>
-
-
 
         <section className="content_page p41464"  >
           <div className="section full addPadd" style={{'paddingTop': '0px', 'paddingBottom': '20px'}}>                                                                                
@@ -231,6 +258,40 @@ function App() {
             </div>
           </div>
         </div>                                                                               
+      </section>
+
+      <section className="content_page p41469" style={{"marginTop":"56px"}}>
+          <div className="section full addPadd" style={{'paddingTop': '0px', 'paddingBottom': '20px'}}>                                                                                
+            <div className="sectionCont small">
+              <div className="imgCont" style={{'backgroundColor': '#ccb16f'}}>
+                <div id="head_10" className="textCont">
+                  <h2 style={{'color': '#ffffff', 'fontSize': '3.75em'}}>INVITE</h2>
+                  <div className="subsection"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div className="section stagger">             
+            <div className="sectionCont large">
+              <div id="head_21" className="textCont textOnly">
+                <br />
+                <div className="subsection">
+                  <h3><a onClick={handleShow}>
+                    Click here to view invite
+                  </a></h3>
+
+                  <Modal show={show} onHide={handleClose} fullscreen={false} size='lg' style={{'height':'800px'}}>
+                    <Modal.Header closeButton>
+                      <Modal.Title>Invite</Modal.Title>
+                    </Modal.Header>
+                    <Modal.Body>
+                      <InviteCarousel></InviteCarousel>
+                    </Modal.Body>
+                  </Modal>
+                </div>
+              </div>
+          </div>
+        </div>
       </section>
 
       <section className="content_page p41466" >
