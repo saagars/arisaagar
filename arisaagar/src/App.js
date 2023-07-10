@@ -419,10 +419,6 @@ function App() {
                     <b>E</b>: boracay.reservation@crimsonhotel.com 
                   </h4>
                   <br/>
-                  <h3>STATION 1-3</h3>
-                  <h4>
-                    Here are some of our favorite hotels 
-                  </h4>
                 </div>
               </div>
             </div>
