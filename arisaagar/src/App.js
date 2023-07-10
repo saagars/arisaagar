@@ -1,4 +1,5 @@
 import saveTheDate from './SaveTheDatePhoto.jpeg';
+import Carousel from 'react-bootstrap/Carousel';
 // import './App.css';
 // https://i.imgur.com/EIAAMOK.png - Names image
 
@@ -15,7 +16,54 @@ import saveTheDate from './SaveTheDatePhoto.jpeg';
       //   </nav>
       // </div>
 import './css/styles.css'
+import './css/bootstrap.min.css';
 
+
+function PictureCarousel() {
+  /*
+        <section className="home halign-center valign-middle coverpage cover" data-color="">
+          <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/ZySJ0Rq.jpg)", "backgroundPosition": "top", "top": "-18%"}}>
+          </div>               
+        </section>
+  */
+  const delay = 50000
+  return (
+    <Carousel data-bs-theme="dark" pause={false}>
+      <Carousel.Item interval={delay}>
+        <section className="home halign-center valign-middle coverpage cover" data-color="">
+        <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/ZySJ0Rq.jpg)", "backgroundPosition": "top", "top": "-10%", "backgroundPositionX": "60%"}}>
+        </div>     
+        </section>
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={delay}>
+        <section className="home halign-center valign-middle coverpage cover" data-color="">
+                  <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/L9zycrH.jpeg)", "backgroundPosition": "top", "top": "-7%", "backgroundPositionX": "50%"}}>
+        </div>   
+        </section>
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={delay}>
+        <section className="home halign-center valign-middle coverpage cover" data-color="">
+          <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/v64KrwT.jpeg)", "backgroundPosition": "top", "top": "-8%", "backgroundPositionX": "25%"}}>
+        </div>     
+        </section>
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+      <Carousel.Item interval={delay}>
+        <section className="home halign-center valign-middle coverpage cover" data-color="">
+          <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/lXpQcbG.jpeg)", "backgroundPosition": "top", "top": "-10%"}}>
+        </div>     
+        </section>
+        <Carousel.Caption>
+        </Carousel.Caption>
+      </Carousel.Item>
+    </Carousel>
+  );
+}
 
 function App() {
   return (
@@ -31,21 +79,23 @@ function App() {
     
       <main className="singlePage"> 
 
+      
+
         <section className="home halign-center valign-middle coverpage cover" data-color="">
           <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/NtcMidB.jpg)"}}>
           </div>               
           <h1 id="coverpage_0" className="logo">
-            <img src="https://i.imgur.com/zP9PuEm.png"></img>
+            <img src="https://i.imgur.com/iLMjWwW.png"></img>
           </h1>
         </section>
 
-        <section className="home halign-center valign-middle coverpage cover" data-color="">
-          <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/ZySJ0Rq.jpg)", "backgroundPosition": "top", "top": "-18%"}}>
-          </div>               
-        </section>
+        
+        <PictureCarousel></PictureCarousel>
 
-        <section className="content_page p41464" >
-          <div className="section full addPadd">                                                                                
+
+
+        <section className="content_page p41464"  >
+          <div className="section full addPadd" style={{'paddingTop': '0px'}}>                                                                                
             <div className="sectionCont small">
               <div className="imgCont" style={{'backgroundColor': '#ccb16f'}}>
                 <div id="head_10" className="textCont">
@@ -342,22 +392,6 @@ function App() {
           </div>
         </div>
       </section>
-
-      <section className="home halign-center valign-middle coverpage cover" data-color="">
-        <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/L9zycrH.jpeg)", "backgroundPosition": "top", "top": "-10%", "backgroundPositionX": "15%"}}>
-        </div>               
-      </section>
-
-      <section className="home halign-center valign-middle coverpage cover" data-color="">
-        <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/v64KrwT.jpeg)", "backgroundPosition": "top", "top": "-8%", "backgroundPositionX": "15%"}}>
-        </div>               
-      </section>
-
-      <section className="home halign-center valign-middle coverpage cover" data-color="">
-        <div className="bgBox" style={{'backgroundImage':"url(https://i.imgur.com/lXpQcbG.jpeg)", "backgroundPosition": "top", "top": "-10%"}}>
-        </div>               
-      </section>
-
     </main>
   </div>
   );
