@@ -67,22 +67,22 @@ function InviteCarousel() {
   return (
     <Carousel data-bs-theme="dark" pause={false} interval={null}>
       <Carousel.Item>
-        <img src="https://i.imgur.com/tFyrkYX.png" alt="Invite 1" width="684" height="958"></img>
+        <img src="https://i.imgur.com/tFyrkYX.png" alt="Invite 1" width="100%" height="auto"></img>
         <Carousel.Caption>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src="https://i.imgur.com/29Cnfmv.png" alt="Invite 2" width="684" height="958"></img>
+        <img src="https://i.imgur.com/29Cnfmv.png" alt="Invite 2" width="100%" height="auto"></img>
         <Carousel.Caption>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src="https://i.imgur.com/mnjjbXC.jpeg" alt="Invite 1" width="684" height="958"></img>
+        <img src="https://i.imgur.com/mnjjbXC.jpeg" alt="Invite 1" width="100%" height="auto"></img>
         <Carousel.Caption>
         </Carousel.Caption>
       </Carousel.Item>
       <Carousel.Item>
-        <img src="https://i.imgur.com/2QLWedZ.png" alt="Invite 1" width="684" height="958"></img>
+        <img src="https://i.imgur.com/2QLWedZ.png" alt="Invite 1" width="100%" height="auto"></img>
         <Carousel.Caption>
         </Carousel.Caption>
       </Carousel.Item>
@@ -280,7 +280,7 @@ function App() {
                     Click here to view invite
                   </a></h3>
 
-                  <Modal show={show} onHide={handleClose} fullscreen={false} size='lg' style={{'height':'800px'}}>
+                  <Modal show={show} onHide={handleClose} fullscreen={false} size='lg' style={{"width": "90%", "marginLeft": "5%"}}>
                     <Modal.Header closeButton>
                       <Modal.Title>Invite</Modal.Title>
                     </Modal.Header>
